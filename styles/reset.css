@@ -30,6 +30,12 @@ select {
   font: inherit;
 }
 
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
 /* Make images easier to work with */
 img,
 picture {
