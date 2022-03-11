@@ -1,4 +1,4 @@
-import '@styles/index.css'
+import './styles/index.css'
 
 const form = document.querySelector('form')
 const formErrorMessage = document.querySelector('.form-error-message')
