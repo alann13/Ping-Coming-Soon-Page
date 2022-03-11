@@ -15,27 +15,34 @@
     </header>
     <main>
       <form>
-        <label for="email"></label>
-        <input type="text" id="email" placeholder="Your email address.." />
-        <button>Notify me</button>
+        <fieldset>
+          <label for="email"></label>
+          <input class="email-input" type="text" name="email" placeholder="Your email address.." />
+          <p class="form-error-message hidden">Please provide a valid email address</p>
+        </fieldset>
+
+        <button type="submit" class="form-button">Notify me</button>
       </form>
 
       <img src="/images/illustration-dashboard.png" alt="illustration dashboard" />
     </main>
+
     <footer>
       <ul class="social-medias-container">
         <li>
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f" title="facebook icon"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter" title="twitter icon"></i></a>
         </li>
         <li>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram" title="instagram icon"></i></a>
         </li>
       </ul>
+
       <p>© Copyright Ping. All rights reserved.</p>
     </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>

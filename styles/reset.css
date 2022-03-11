@@ -10,12 +10,6 @@
   margin: 0;
 }
 
-/* Allow percentage-based heights in the application */
-html,
-body {
-  height: 100%;
-}
-
 /* a11y */
 body {
   line-height: 1.5;
